@@ -8,7 +8,9 @@
 
 int _isdigit(int c)
 {
-	if ((c % 10) >= 0 && (c % 10) <= 9)
+	char d = (char)c;
+
+	if (d >= '0' && d <= '9')
 	{
 		return (1);
 	}
