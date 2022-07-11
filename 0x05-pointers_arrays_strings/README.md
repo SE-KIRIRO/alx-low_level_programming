@@ -14,3 +14,5 @@ in this directory we dive into the world of pointers
 
 6_ write a function that prints every other character of a string, starting with the first character, followed by a new line.
 
+7_ write a function that prints half of a string, followed by a newline.
+
