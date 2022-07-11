@@ -8,5 +8,6 @@ in this directory we dive into the world of pointers
 
 3_ write a function that prints a string, followed by a new line to stdout.
 
+4_ write a function that prints a string in reverse, followed by a new line
 
 
