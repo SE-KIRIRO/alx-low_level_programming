@@ -6,5 +6,7 @@ in this directory we dive into the world of pointers
 
 2_ write a function that returns the length of a string
 
+3_ write a function that prints a string, followed by a new line to stdout.
+
 
 
