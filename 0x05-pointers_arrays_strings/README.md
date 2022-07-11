@@ -10,4 +10,6 @@ in this directory we dive into the world of pointers
 
 4_ write a function that prints a string in reverse, followed by a new line
 
+5_ write a function that reverses a string.
+
 
