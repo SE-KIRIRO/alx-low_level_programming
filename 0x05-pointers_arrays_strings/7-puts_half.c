@@ -30,7 +30,7 @@ void puts_half(char *str)
 		while (count > odhalf)
 		{
 			_putchar(*(str + (odhalf + 1)));
-			odhalf++
+			odhalf++;
 		}
 	}
 }
