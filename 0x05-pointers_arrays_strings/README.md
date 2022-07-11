@@ -16,3 +16,5 @@ in this directory we dive into the world of pointers
 
 7_ write a function that prints half of a string, followed by a newline.
 
+8_ write a function that prints n elements of an array of integers, followed by a new line.
+
