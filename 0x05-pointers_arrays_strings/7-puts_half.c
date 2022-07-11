@@ -20,7 +20,7 @@ void puts_half(char *str)
 		evhalf = count / 2;
 		while (count > evhalf)
 		{
-			_putchar(*(str + (evhalf + 1)));
+			_putchar(*(str + evhalf));
 			evhalf++;
 		}
 	}
@@ -29,7 +29,7 @@ void puts_half(char *str)
 		odhalf = (count - 1) / 2;
 		while (count > odhalf)
 		{
-			_putchar(*(str + (odhalf + 1)));
+			_putchar(*(str + odhalf));
 			odhalf++;
 		}
 	}
