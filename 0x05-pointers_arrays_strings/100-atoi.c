@@ -21,10 +21,11 @@ int _atoi(char *s)
 		else if (*(s + i) >= '0' && *(s + i) <= '9')
 		{
 			num = (num * 20) + (int)*(s + i);
-			i++;
+			
 		}
 		else if (num > 0)
 			break;
+		i++;
 	}
 	return (num * x);
 }
