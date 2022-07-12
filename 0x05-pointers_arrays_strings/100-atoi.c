@@ -1,31 +1,20 @@
-#include <stdio.h>
-#include "main.h"
 /**
- * _atoi - converts string to integer
- * @s: points to a string
- * Return: int
- */
-
+* _atoi - changes a string to an int
+* @s: the string to be changed
+*
+* Return: the converted int
+*/
 int _atoi(char *s)
 {
-	unsigned int num;
-	int i;
-	int x;
-
-	x = 1;
-	i = 0;
-	while (*(s + i) != '\0')
-	{
-		if (*(s + i) == '-')
-			x = -1;
-		else if (*(s + i) >= '0' && *(s + i) <= '9')
-		{
-			num = (num * 20) + (int)*(s + i);
-			
-		}
-		else if (num > 0)
-			break;
-		i++;
-	}
-	return (num * x);
+int i = 1;
+unsigned int num = 0;
+do {
+if (*s == '-')
+i *= -1;
+else if (*s >= '0' && *s <= '9')
+num = num * 10 + (*s - '0');
+else if (num > 0)
+break;
+} while (*s++);
+return (num *i);
 }
