@@ -14,3 +14,5 @@ in this directory i do more of pointers arrays and strings
 
 4- write a function that reverses the content of an array of characters
 
+5- write a function that changes all lowecase letters of a string to uppercase.
+
