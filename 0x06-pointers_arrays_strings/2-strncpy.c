@@ -22,11 +22,11 @@ char *_strncpy(char *dest, char *src, int n)
 		src++;
 		count++;
 	}
+	count++
 	if (n > count)
 		n = count;
 	src = start;
 	for (i = 0; i < n; i++)
 		*dest++ = *src++;
-	*dest = '\0';
 	return (desti);
 }
