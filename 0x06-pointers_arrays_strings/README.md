@@ -12,3 +12,5 @@ in this directory i do more of pointers arrays and strings
 3- write a function that compares two strings
 	the function should work exactly like strcmp
 
+4- write a function that reverses the content of an array of characters
+
