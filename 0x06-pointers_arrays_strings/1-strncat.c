@@ -10,17 +10,27 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	char *desti;
+	char *start;
 	int count;
+	int i;
 
+	i = 0;
+	desti = dest;
+	start = src;
 	count = 0;
 	while (*dest)
-	{
 		dest++;
+	while (*src)
+	{
+		count++;
+		*src++;
 	}
-	while (count < n && *src)
+	if (n > count)
+		n = count;
+	src = start;
+	while (i < n)
 	{
 		*dest++ = *src++;
-		count++
 	}
 	*dest = '\0';
 	return (desti);
