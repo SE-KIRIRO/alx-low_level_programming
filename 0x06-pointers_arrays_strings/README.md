@@ -16,3 +16,4 @@ in this directory i do more of pointers arrays and strings
 
 5- write a function that changes all lowecase letters of a string to uppercase.
 
+6- write a function that capitalizes all words of a string.
