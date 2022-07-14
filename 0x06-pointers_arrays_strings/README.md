@@ -17,3 +17,6 @@ in this directory i do more of pointers arrays and strings
 5- write a function that changes all lowecase letters of a string to uppercase.
 
 6- write a function that capitalizes all words of a string.
+
+7- write a function that encodes a string into 1337 leet.
+
