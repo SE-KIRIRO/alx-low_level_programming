@@ -8,3 +8,7 @@ in this directory i do more of pointers arrays and strings
 
 2- write a function that copies a string.
 	the function should work exactly like string copy
+
+3- write a function that compares two strings
+	the function should work exactly like strcmp
+
