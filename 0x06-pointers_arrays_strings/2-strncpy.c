@@ -22,7 +22,7 @@ char *_strncpy(char *dest, char *src, int n)
 		src++;
 		count++;
 	}
-	count++
+	count++;
 	if (n > count)
 		n = count;
 	src = start;
