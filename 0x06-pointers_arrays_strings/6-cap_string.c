@@ -1,4 +1,5 @@
 #include "main.h"
+int checkoprator(char c);
 /**
  * cap_string - capitalizes all words of a string
  * @s: pointer to input string
