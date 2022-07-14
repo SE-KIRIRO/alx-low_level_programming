@@ -12,7 +12,7 @@ char *_strcat(char *dest, char *src)
 	int s_cou;
 	char *desti;
 
-	desti = *dest; 
+	desti = dest; 
 	d_cou = 0;
 	while (*(dest + d_cou) != '\0')
 	{
