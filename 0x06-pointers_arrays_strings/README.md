@@ -6,3 +6,5 @@ in this directory i do more of pointers arrays and strings
 1- write a function that concatenates two strings.
 	this function is similar to the first one only that it will use at most n bytes from src.
 
+2- write a function that copies a string.
+	the function should work exactly like string copy
