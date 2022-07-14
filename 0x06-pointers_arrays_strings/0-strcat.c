@@ -10,7 +10,9 @@ char *_strcat(char *dest, char *src)
 {
 	int d_cou;
 	int s_cou;
+	char *desti;
 
+	desti = *dest; 
 	d_cou = 0;
 	while (*(dest + d_cou) != '\0')
 	{
@@ -23,5 +25,5 @@ char *_strcat(char *dest, char *src)
 		s_cou++;
 	}
 	*(dest + (d_cou + s_cou)) = '\0';
-	return (dest);
+	return (desti);
 }
