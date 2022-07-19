@@ -6,3 +6,5 @@ in this directory i continue learning more about pointers arrays and strings.
 
 2- write a function that locates a character in a string.
 
+3- write a function that gets the length of a prefix substring
+
