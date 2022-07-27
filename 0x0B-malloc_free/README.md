@@ -24,3 +24,14 @@ each element of the grid should be initializes to 0
 the function should return NULL on failure
 if width or height 0 or negative, return NULL.
 
+
+4- it's not bragging if you can back it up
+write a function that frees a 2 dimensional grid previously created by the alloc_grid function.
+
+
+it isn't the mountains ahead to climb that wear you out it is the pebble in your shoe
+write a function that concatenates all the arguments of your program
+it returns NULL of ac == 0 or av == NULL
+the function returns a pointer to a new string, or NULL if it fails
+each argument should be followed by a \n in the new string.
+
