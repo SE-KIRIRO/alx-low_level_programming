@@ -17,3 +17,9 @@ followed by a new line.
 the program should assume that the two numbers and the result of the multiplication can be stored in an integer.
 if the program does not recieve two arguments it should print error followed by a new line and return 1.
 
+
+write a program that adds positive numbers
+the result is printed followed by a new line
+if no number is passed to the program, print 0, followed by a new line
+if one of the number contains symbols that are not digits, print Error, followed by a new line, and return 1
+you can assume that numbers and the addition of all the numbers can be stored in an int.
