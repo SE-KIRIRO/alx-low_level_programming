@@ -1,59 +1,38 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 
 /**
-* argstostr - a function that concatenates all the arguments of your program
-*@ac: count of args passed to the function
-*@av:array of arguments
-*
-*Return: pointer to the new string
-*/
-
-char *argstostr(int ac, char **av)
+ * print_tab - Prints an array of string
+ * @tab: The array to print
+ *
+ * Return: nothing
+ */
+void print_tab(char **tab)
 {
-		char *new_string = NULL;
-		int k = 0, i = ac, j, sum = 0, temp = 0;
+  int i;
 
-		if (ac == 0 || av == NULL)
-			return (NULL);
-
-		while (ac--)
-			sum += (len(av[ac]) + 1);
-		new_string = (char *) malloc(sum + 1);
-
-		if (new_string != NULL)
-		{
-			while (k < i)
-			{
-				for (j = 0; av[k][j] != '\0'; j++)
-					new_string[j + temp] = av[k][j];
-				new_string[temp + j] = '\n';
-				temp += (j + 1);
-				k++;
-			}
-			new_string[temp] = '\0';
-		}
-		else
-		{
-			return (NULL);
-		}
-		return (new_string);
+  for (i = 0; tab[i] != NULL; ++i)
+    {
+      printf("%s\n", tab[i]);
+    }
 }
 
 /**
-*len - returns length of str
-*@str: string counted
-*Return: returns the length
-*/
-int len(char *str)
+ * main - check the code for Holberton School students.
+ *
+ * Return: 1 if an error occurred, 0 otherwise
+ */
+int main(void)
 {
-		int len = 0;
+  char **tab;
 
-		if (str != NULL)
-		{
-			while (str[len])
-				len++;
-		}
-	return (len);
+  tab = strtow("      Holberton School         #cisfun      ");
+  if (tab == NULL)
+    {
+      printf("Failed\n");
+      return (1);
+    }
+  print_tab(tab);
+  return (0);
 }
