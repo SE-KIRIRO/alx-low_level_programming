@@ -17,3 +17,10 @@ the returned pointer should point to a newly allocated space in memory which con
 if NULL is passed, treat it as an empty string
 the function should return NULL on failure.
 
+
+3-if you even dream of beating me you'd better wake up and apologize
+write a fucntion that returns a pointer to a 2 dimensional array of integers
+each element of the grid should be initializes to 0
+the function should return NULL on failure
+if width or height 0 or negative, return NULL.
+
