@@ -8,29 +8,28 @@
 
 void puts_half(char *str)
 {
-	int count;
-	int evhalf;
-	int odhalf;
+        int count = 0, n, i;
 
-	count = 0;
-	while (*(str + count) != '\0')
-		count++;
-	if (count % 2 == 0)
-	{
-		evhalf = count / 2;
-		while (count > evhalf)
-		{
-			_putchar(*(str + evhalf));
-			evhalf++;
-		}
-	}
-	else
-	{
-		odhalf = (count - 1) / 2;
-		while (count > odhalf)
-		{
-			_putchar(*(str + odhalf));
-			odhalf++;
-		}
-	}
+        while(str[count] != '\0')
+        {
+                count++;
+        }
+        if((count % 2) == 0)
+        {
+                n = count / 2;
+        }
+        else
+        {
+                n = (count - 1) / 2;
+        }
+        while(str[i] != '\0')
+        {
+                if(i >= (count - n))
+                {
+                        putchar(str[i++]);
+                }
+        }
+        putchar('\n');
 }
+
+
